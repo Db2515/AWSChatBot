@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "awschatbot-executor",
+    "name": "awschatbot",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "tzaik6gwz5",
+    "module": "handler"
+  }
+}

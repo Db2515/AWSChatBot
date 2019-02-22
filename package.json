@@ -1,0 +1,27 @@
+{
+  "name": "awschatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Db2515/AWSChatBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Db2515/AWSChatBot/issues"
+  },
+  "homepage": "https://github.com/Db2515/AWSChatBot#readme",
+  "dependencies": {
+    "claudia-bot-builder": "^4.5.0",
+    "huh": "^2.0.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "claudia": "^5.4.0"
+  }
+}
