@@ -43,18 +43,6 @@ module.exports = botBuilder(async message => {
 
       }
       let result = await promised_request(url);
-      // let result = await request(url, function (err, response, body) {
-      //   if(err){
-      //     console.log('error:', error);
-      //     return "Couldn't find the weather";
-      //   } else {
-      //     let weather = JSON.parse(body);
-      //     let message = `It's ${weather.main.temp} degrees in
-      //          ${weather.name}!`;
-      //     return message;
-      //   } 
-      // });
-
       return result;
     } else {
       console.log("Couldn't understand message");
